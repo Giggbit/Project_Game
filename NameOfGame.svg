@@ -1,13 +1,13 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 931.6 220.99">
     <defs>
         <style>
-            <!-- .cls-1{
+            <!-- .cls-3{
                 font-size:191.52px;
                 stroke:#3c4c7d;
                 stroke-miterlimit:10;
                 stroke-width:4px;
                 font-family:AGFatumC-Bold, AGFatumC;font-weight:700;
-            } -->
+            }    -->
         
             .cls-1, .cls-2{
                 fill:#fff;
@@ -19,7 +19,7 @@
         </style>
     </defs>
     
-    <text class="cls-1" transform="translate(2 169.96)">Feathers</text>
+    <!-- <text class="cls-1" transform="translate(2 169.96)">Feathers</text> -->
     <!-- <polygon class="cls-2" points="12.26 171.96 12.26 23.56 99.18 23.56 99.18 59.35 53.79 59.35 53.79 79.48 94.97 79.48 94.97 115.27 53.79 115.27 53.79 171.96 12.26 171.96"/> -->
     <path class="cls-3" d="M116,48.08V79.87H70.6V104h41.18v31.79H70.6v56.69H33.07V48.08H116m4-4H29.07v152.4H74.6V139.79h41.18V100H74.6V83.87H120V44.08Z" transform="translate(-18.81 -22.52)"/>
     <!-- <path class="cls-2" d="M185.7,197.74c-35.76,0-58.88-21.31-58.88-54.29S149,89,183.21,89c17.16,0,31.38,5.3,41.13,15.33C234,114.19,239,128.46,239,145.56v5.64h-73.3C166.39,163,173,169,185.51,169c7.17,0,11.63-2.39,14.94-8l.58-1h37.19l-.59,2.47C231.41,188.48,206.72,197.74,185.7,197.74Zm16.37-70.65c-2.37-6.79-9.21-11.51-17.13-11.51-9,0-15.55,4.25-18.07,11.51Z" transform="translate(-18.81 -22.52)"/> -->
