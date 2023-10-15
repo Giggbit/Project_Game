@@ -1,0 +1,76 @@
+body{
+    /* background-image: url(MainBackground.jpeg); */
+    background-size: 100%;
+}
+
+.menuDiv{
+    position: absolute;
+    margin-top: 12.04vh;
+    margin-left: 8.7vw;
+    height: 21.2vh;
+    width: 90.65vh;
+    background-image: url(NameOfGame.svg);
+}
+
+.buttonsDiv{
+    position: absolute;
+    margin-top: 43.8vh;
+    margin-left: 12.6vw;
+    height: auto;
+    width: 27.69vh;
+    background-color: greenyellow;
+}
+
+.btn_play{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 100%;
+    background-color: plum;
+}
+
+.btn_creategame{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 100%;
+    background-color: plum;
+}
+
+.btn_profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 100%;
+    background-color: plum;
+}
+
+.btn_settings{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 100%;
+    background-color: plum;
+}
+
+.btn_info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 100%;
+    background-color: plum;
+}
