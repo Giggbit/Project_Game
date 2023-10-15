@@ -1,5 +1,5 @@
 body{
-    /* background-image: url(MainBackground.jpeg); */
+    background-image: url(MainBackground.jpeg);
     background-size: 100%;
 }
 
@@ -8,8 +8,8 @@ body{
     margin-top: 12.04vh;
     margin-left: 8.7vw;
     height: 21.2vh;
-    width: 90.30vh;
-    background-image: url(NameOfGame.svg);
+    width: 90vh;
+    background-image: url(GameName.svg);
 }
 
 .buttonsDiv{
@@ -18,7 +18,6 @@ body{
     margin-left: 12.6vw;
     height: auto;
     width: 27.69vh;
-    background-color: greenyellow;
 }
 
 .btn_play, .btn_info, .btn_creategame, .btn_profile, .btn_settings{
@@ -29,5 +28,5 @@ body{
     padding-top: 8%;
     padding-bottom: 8%;
     width: 100%;
-    background-color: plum;
+    background-color: #94b8ff;
 }
