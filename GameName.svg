@@ -16,6 +16,8 @@
             
             .cls-3{
                 fill:#7a8ccc;
+                stroke:#7a8ccc;
+                stroke-width:2px;
             }
         </style>
     </defs>
