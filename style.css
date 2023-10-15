@@ -21,54 +21,11 @@ body{
     background-color: greenyellow;
 }
 
-.btn_play{
+.btn_play, .btn_info, .btn_creategame, .btn_profile, .btn_settings{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    width: 100%;
-    background-color: plum;
-}
-
-.btn_creategame{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    width: 100%;
-    background-color: plum;
-}
-
-.btn_profile{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    width: 100%;
-    background-color: plum;
-}
-
-.btn_settings{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    width: 100%;
-    background-color: plum;
-}
-
-.btn_info{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
+    margin-bottom: 5px;
     padding-top: 8%;
     padding-bottom: 8%;
     width: 100%;
