@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/_settings/style.css">
+
+    <title>Settings</title>
+</head>
+
+<body>
+        <div id="menu">
+            <button id="menu-button" class="button" onclick="window.location.replace('/main menu/main.html')">Меню</button>
+            <p style="font-size: 36px; margin-top: 20px;">Музыка</p>
+            <div class="menuOption">
+                <p style="font-size: 24px;">Громкость музыки</p>
+                <div class="slideContainer"> 
+                    <input type="range" min="0" max="100" value="50" class="slider" id="musicVolumeSlider">
+                </div>
+            </div>
+            <div class="menuOption">
+                <p style="font-size: 24px;">Громкость звуков</p>
+                <div class="slideContainer"> 
+                    <input type="range" min="0" max="100" value="50" class="slider" id="soundVolumeSlider">
+                </div>
+            </div>
+            <p style="margin-top: 50px; font-size: 36px;">Интерфейс</p>
+            <div class="menuOption">
+                <p style="font-size: 24px;">Яркость</p>
+                <div class="slideContainer"> 
+                    <input type="range" min="0" max="100" value="50" class="slider" id="brightnessLevelSlider">
+                </div>
+            </div>
+            <button id="saveButton" class="button">Сохранить</button>
+        </div>
+
+    <script src="/_settings/script.js"></script>
+</body>
+</html>
