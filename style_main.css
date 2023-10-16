@@ -17,7 +17,6 @@ body{
     width: 89.89vh;
     background-image: url(GameName.svg);
     background-repeat: no-repeat;
-    width: 50.99vw;
     background-position: left center;
     background-size: contain;
 }
@@ -44,7 +43,7 @@ body{
     border-color: #7a8ccc;
     border-width: 0.45vw;
     border-style:solid;
-    cursor: hand;
+    /* cursor: hand; */
     font-size: 3vh;
     font-family: agfatumc-bold;
 
