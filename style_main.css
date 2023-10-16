@@ -1,0 +1,76 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    background: url(MenuBackground.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menuDiv{
+    position: absolute;
+    margin-top: 12.04vh;
+    margin-left: 8.7vw;
+    height: 21.2vh;
+    width: 89.89vh;
+    background-image: url(GameName.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
+.buttonsDiv{
+    position: absolute;
+    margin-top: 43.8vh;
+    margin-left: 12.6vw;
+    height: auto;
+    width: 27.69vh;
+}
+
+.btn_play, .btn_info, .btn_creategame, .btn_profile, .btn_settings{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    width: 100%;
+    color: white;
+    background-color: #b2cbff;
+    border-radius: 8px;
+    border-color: #7a8ccc;
+    border-width: 0.45vw;
+    border-style:solid;
+    /* cursor: hand; */
+    font-size: 3vh;
+    font-family: agfatumc-bold;
+
+    /* tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;  */
+}
+
+.btn_play:hover{
+    background-color: #cadafe;
+}
+.btn_creategame:hover{
+    background-color: #cadafe;
+}
+.btn_profile:hover{
+    background-color: #cadafe;
+}
+.btn_settings:hover{
+    background-color: #cadafe;
+}
+.btn_info:hover{
+    background-color: #cadafe;
+}
+
+@font-face {
+    font-family: agfatumc-bold;
+    src: url("agfatumc-bold.otf");
+}
+
+
