@@ -1,5 +1,5 @@
 body{
-    background-image: url(MainBackground.jpeg);
+    background-image: url(MenuBackground.svg);
     background-size: 100%;
 }
 
@@ -8,7 +8,7 @@ body{
     margin-top: 12.04vh;
     margin-left: 8.7vw;
     height: 21.2vh;
-    width: 89.90vh;
+    width: 89.89vh;
     background-image: url(GameName.svg);
 }
 
@@ -34,21 +34,13 @@ body{
     border-color: #7a8ccc;
     border-width: 4px;
     border-style:solid;
-
-    font-family: "AGFatumC";
     font-size: 18px;
-    
+    font-family: agfatumc-bold;
 }
 
 @font-face {
-    font-family: "AGFatumC"; 
-    src: url("AGFatumC\agfatumc-bold.otf") format("opentype"); 
-    font-style: normal; 
-    font-weight: normal; 
-} 
-
-p{
-    font-family: "AGFatumC";
+    font-family: agfatumc-bold;
+    src: url("agfatumc-bold.otf");
 }
 
 
