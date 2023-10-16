@@ -6,6 +6,7 @@ body{
     background: url(MenuBackground.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .menuDiv{
@@ -16,6 +17,9 @@ body{
     width: 89.89vh;
     background-image: url(GameName.svg);
     background-repeat: no-repeat;
+    width: 50.99vw;
+    background-position: left center;
+    background-size: contain;
 }
 
 .buttonsDiv{
