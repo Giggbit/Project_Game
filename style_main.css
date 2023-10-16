@@ -39,9 +39,29 @@ body{
     border-color: #7a8ccc;
     border-width: 4px;
     border-style:solid;
-
+    cursor: hand;
     font-size: 3vh;
     font-family: agfatumc-bold;
+
+    /* tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;  */
+}
+
+.btn_play:hover{
+    background-color: #cadafe;
+}
+.btn_creategame:hover{
+    background-color: #cadafe;
+}
+.btn_profile:hover{
+    background-color: #cadafe;
+}
+.btn_settings:hover{
+    background-color: #cadafe;
+}
+.btn_info:hover{
+    background-color: #cadafe;
 }
 
 @font-face {
