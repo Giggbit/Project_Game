@@ -42,7 +42,7 @@ body{
     background-color: #b2cbff;
     border-radius: 8px;
     border-color: #7a8ccc;
-    border-width: 4px;
+    border-width: 0.45vw;
     border-style:solid;
     cursor: hand;
     font-size: 3vh;
