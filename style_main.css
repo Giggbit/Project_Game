@@ -15,6 +15,7 @@ body{
     height: 21.2vh;
     width: 89.89vh;
     background-image: url(GameName.svg);
+    background-repeat: no-repeat;
 }
 
 .buttonsDiv{
