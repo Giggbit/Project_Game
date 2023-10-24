@@ -41,7 +41,7 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 3%;
-    padding-right: 6%;
+    padding-right: 8%;
     padding-bottom: 2%;
 }
 
@@ -74,7 +74,7 @@ datalist {
     flex-direction: row;
     justify-content:space-between;
     writing-mode: horizontal-tb;
-    width: 55%;
+    width: 56%;
     margin-left: 50.48%;
 }
 
