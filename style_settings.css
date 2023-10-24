@@ -1,15 +1,9 @@
-@font-face {
-    font-family: 'agfatumc';
-    src: url('agfatumc-serif.otf') format('otf');
-    src: url('agfatumc-bold.otf') format('otf');
-}
-
 html{
     min-height: 100%;
 }
 
 body{
-    background-image: url(settings_back.jpg);
+    background: url(settings_background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,21 +16,41 @@ body{
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     height: 100%;
-    font-family: 'agfatumc', bold;
     font-size: 150%;
-    background-color: #444444;
-    color: #fff;
-    border-radius: 13px;
-    border-color: antiquewhite;
-    cursor: pointer;
+    color: white;
+    background-color: #b2cbff;
+    border-radius: 8px;
+    border-color: #7a8ccc;
+    border-width: 0.35vw;
+    border-style:solid;
+    font-size: 3vh;
+    font-family: agfatumc-bold;
+}
+
+.button:hover{
+    background-color: #cadafe;
+}
+
+.settings{
+    background-color: rgba(178, 202, 255, 0.577);
+    border-radius: 8px;
+    border-color: #7a8ccc;
+    border-width: 0.35vw;
+    border-style:solid;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 3%;
+    padding-right: 6%;
+    padding-bottom: 2%;
 }
 
 p {
     margin: 0;
     padding: 0;
-    color: #f1f1f1;
-    font-family: 'agfatummc', sans-serif;
-  
+    padding-top: 1%;
+    color: #434343;
+    font-family: agfatumc;
 }
 
 #content {
@@ -48,14 +62,42 @@ p {
 .slideContainer {
     width: 50%;
     position: relative;
-    
 }
 
 .slider {
     width: 100%;
-    height: 30%;
-    
+    height: 100%;
 }
+
+datalist {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    writing-mode: horizontal-tb;
+    width: 55%;
+    margin-left: 50.48%;
+}
+
+input[type='range'] {
+    overflow: hidden;
+    width: 700px;
+    appearance: none;
+    background-color: #b2cbff;
+    border-width: 2px;
+    border-color: #434343;
+    border-style: solid;
+    border-radius: 5px;
+}
+  
+input[type='range']::-webkit-slider-thumb {
+    width: 7px;
+    -webkit-appearance: none;
+    height: 20px;
+    cursor: ew-resize;
+    background: #434343;
+    box-shadow: 0 0 0 7px #7a8ccc;
+}
+
 
 .menuOption {
     display: flex;
@@ -66,6 +108,7 @@ p {
 
 .slideContainer {
     margin-left: 1%;  
+    margin-top: 1%;
 }
 
 #saveButton{
@@ -78,4 +121,17 @@ p {
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 1%;
+    margin-right: 1%;
+    margin-left: 2%;
+}
+
+
+@font-face{
+    font-family: agfatumc-bold;
+    src: url('./Fonts/agfatumc-bold.otf');
+}
+
+@font-face {
+    font-family: agfatumc;
+    src: url('./Fonts/agfatumc.otf');
 }

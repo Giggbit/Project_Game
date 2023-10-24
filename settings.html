@@ -4,36 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_settings.css">
-
+    <link rel="stylesheet" href="./style_settings.css">
     <title>Settings</title>
 </head>
 
 <body>
-        <div id="menu">
-            <button id="menu-button" class="button" onclick="window.location.replace('main.html')">Меню</button>
-            <p style="font-size: 36px; margin-top: 20px;">Музыка</p>
+    <div id="menu">
+        <button id="menu-button" class="button" onclick="window.location.replace('main.html')">Menu</button>
+
+        <div class="settings">
+            <p style="font-size: 36px; margin-top: 20px;">Music</p>
             <div class="menuOption">
-                <p style="font-size: 24px;">Громкость музыки</p>
+                <p style="font-size: 24px;">Music volume</p>
                 <div class="slideContainer"> 
-                    <input type="range" min="0" max="100" value="50" class="slider" id="musicVolumeSlider">
+                    <input type="range" min="0" max="100" value="50" step="5" list="musicVolume" class="slider" id="musicVolumeSlider">
                 </div>
             </div>
+            <datalist id="musicVolume">
+                <option value="0" label="0"></option>
+                <option value="25" label="25"></option>
+                <option value="50" label="50"></option>
+                <option value="75" label="75"></option>
+                <option value="100" label="100"></option>
+            </datalist>
+
             <div class="menuOption">
-                <p style="font-size: 24px;">Громкость звуков</p>
+                <p style="font-size: 24px;">Sound volume</p>
                 <div class="slideContainer"> 
-                    <input type="range" min="0" max="100" value="50" class="slider" id="soundVolumeSlider">
+                    <input type="range" min="0" max="100" value="50" step="5" list="soundVolume" class="slider" id="soundVolumeSlider">                    
                 </div>
             </div>
-            <p style="margin-top: 50px; font-size: 36px;">Интерфейс</p>
+            <datalist id="soundVolume">
+                <option value="0" label="0"></option>
+                <option value="25" label="25"></option>
+                <option value="50" label="50"></option>
+                <option value="75" label="75"></option>
+                <option value="100" label="100"></option>
+            </datalist>
+
+            <p style="margin-top: 50px; font-size: 36px;">Interface</p>
             <div class="menuOption">
-                <p style="font-size: 24px;">Яркость</p>
+                <p style="font-size: 24px;">Bright</p>
                 <div class="slideContainer"> 
-                    <input type="range" min="0" max="100" value="50" class="slider" id="brightnessLevelSlider">
+                    <input type="range" min="0" max="100" value="50" step="10" list="brightnessLevel" class="slider" id="brightnessLevelSlider">
                 </div>
             </div>
-            <button id="saveButton" class="button">Сохранить</button>
+            <datalist id="brightnessLevel">
+                <option value="0" label="0"></option>
+                <option value="10" label="10"></option>
+                <option value="20" label="20"></option>
+                <option value="30" label="30"></option>
+                <option value="40" label="40"></option>
+                <option value="50" label="50"></option>
+                <option value="60" label="60"></option>
+                <option value="70" label="70"></option>
+                <option value="80" label="80"></option>
+                <option value="90" label="90"></option>
+                <option value="100" label="100"></option>
+            </datalist>
         </div>
+
+        <button id="saveButton" class="button">Save</button>
+    </div>
 
     <script src="script_settings.js"></script>
 </body>

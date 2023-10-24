@@ -1,0 +1,243 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url(Sky.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#map {
+    position: absolute;
+    margin-top: -164.26vh;
+    margin-left: -89.64vw;
+    height: 499.54vh;
+    width: 1216.77vw;
+    /* background-color: rgba(0, 150, 0, 0.2); */
+}
+
+
+.mainIslands {
+    position: absolute;
+    background-color: rgba(165, 42, 42, 0.4);
+}
+
+.secondaryIslands {
+    position: absolute;
+    background-color: rgba(255, 165, 0, 0.4);
+}
+
+
+#blueTeamIslandShop {
+    top: 45.65%;
+    height: 20.8%;
+    width: 5.58%;
+}
+#redTeamIslandShop{
+    top: 45.65%;
+    height: 20.8%;
+    width: 5.58%;
+    left: 94.42%;
+}
+
+#blueTeamIsland {
+    top: 48.71%;
+    left: 5.5%;
+    height: 40.24%;
+    width: 11.9%;
+}
+#redTeamIsland{
+    top: 48.71%;
+    right: 5.5%;
+    height: 40.24%;
+    width: 11.9%;
+}
+
+#blueTeamIslandExit {
+    top: 69.95%;
+    left: 14.52%;
+    height: 12.36%;
+    width: 2.95%;
+}
+#redTeamIslandExit{
+    top: 69.95%;
+    right: 14.52%;
+    height: 12.36%;
+    width: 2.95%;
+}
+
+
+#middleLeftIslandBlue {
+    top: 45.56%;
+    left: 18.11%;
+    height: 11.05%;
+    width: 3%;
+}
+#middleRightIslandRed {
+    top: 45.56%;
+    right: 18.11%;
+    height: 11.05%;
+    width: 3%;
+}
+
+#bottomLeftIslandBlue {
+    top: 70.81%;
+    left: 17.61%;
+    height: 14.70%;
+    width: 3.66%;
+}
+#bottomRightIslandRed{
+    top: 70.81%;
+    right: 17.61%;
+    height: 14.70%;
+    width: 3.66%;
+}
+
+#topLeftIslandBlue {
+    left: 16.99%;
+    height: 17.5%;
+    width: 6.43%;
+}
+#topRightIslandRed{
+    right: 16.99%;
+    height: 17.5%;
+    width: 6.43%;
+}
+
+
+#middleMiddleIslandBlue {
+    top: 33.94%;
+    left: 21.11%;
+    height: 35.51%;
+    width: 13.09%; 
+}
+#middleMiddleIslandRed{
+    top: 33.94%;
+    right: 21.11%;
+    height: 35.51%;
+    width: 13.09%;
+}
+
+#middleBottomIslandBlue {
+    top: 69.12%;
+    left: 21.43%;
+    height: 21.35%;
+    width: 12.36%; 
+}
+#middleBottomIslandRed{
+    top: 69.12%;
+    right: 21.43%;
+    height: 21.35%;
+    width: 12.36%; 
+}
+
+
+#middleRightIsland1Blue {
+    top: 38.22%;
+    left: 34.32%;
+    height: 8.64%;
+    width: 2.65%;
+}
+#middleLeftIsland1Red {
+    top: 38.22%;
+    right: 34.32%;
+    height: 8.64%;
+    width: 2.65%;
+}
+
+#middleRightIsland2Blue {
+    top: 46.6%;
+    left: 35.97%;
+    height: 13.55%;
+    width: 4.33%;
+}
+#middleLeftIsland2Red {
+    top: 46.6%;
+    right: 35.97%;
+    height: 13.55%;
+    width: 4.33%;
+}
+
+#bottomRightIslandBlue {
+    top: 65.67%;
+    left: 34.2%;
+    height: 23.78%;
+    width: 6.5%;
+}
+#bottomLeftIslandRed {
+    top: 65.67%;
+    right: 34.2%;
+    height: 23.78%;
+    width: 6.5%;
+}
+
+#topRightIslandBlue {
+    top: 6.28%;
+    left: 34.98%;
+    height: 16.59%;
+    width: 5.59%;
+}
+#topLeftIslandRed {
+    top: 6.28%;
+    right: 34.98%;
+    height: 16.59%;
+    width: 5.59%;
+}
+
+
+#centerMiddleLeftIsland {
+    top: 43.99%;
+    left: 40.78%;
+    height: 20.93%;
+    width: 8.02%; 
+}
+
+#centerMiddleMiddleIsland {
+    top: 39.63%;
+    left: 46.1%;
+    height: 21.24%;
+    width: 8.21%; 
+}
+
+#centerMiddleRightIsland {
+    top: 43.99%;
+    left: 51.23%;
+    height: 20.93%;
+    width: 8.02%; 
+}
+
+#centerBottomIsland {
+    top: 63.28%;
+    left: 41.04%;
+    height: 36.72%;
+    width: 17.95%; 
+}
+
+
+#myPlayer {
+    position: absolute;
+    margin-top: 63.15vh;
+    /* margin-left: 27.92vw; */
+    margin-left: 42vw;
+    height: 26.76vh;
+    width: 26.76vh;
+    background-color: lightgreen;
+    background-image: url(Knight.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mini-map {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid #000;
+    position: fixed;
+    overflow: hidden;
+}
